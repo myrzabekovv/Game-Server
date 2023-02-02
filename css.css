@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+  background: linear-gradient(180deg, #000000 0%, #2E54B6 100%);
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  height: 80vh;
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+  margin: 150px auto;
+}
+
+.container-inner {
+  display: flex;
+  gap: 27px;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nick {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.error {
+  margin-left: 47px;
+}
+
+.nickname {
+  border: none;
+  border-radius: 20px;
+  width: 230px;
+  height: 37px;
+  padding: 6px;
+  font-family: 'Montserrat', sans-serif;
+  outline: none;
+  border: none;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 35px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #FFD600;
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.WrongNickName, .WithoutSpace, .WithSmallWord {
+  color: #FA6F6F;
+  font-size: 10px;
+  display: flex;
+  margin-top: 5px;
+}
+
+.HaveToPick {
+  color: #FA6F6F;
+  font-size: 10px;
+}
+
+.radio-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.radio {
+  width: 20px;
+  height: 20px;
+}
+
+.radio-wrapper > label {
+  margin-left: 14px;
+  color: white;
+}
+
+.successfully {
+  color: #72FA6F;
+  font-size: 10px;
+  text-align: center;
+}

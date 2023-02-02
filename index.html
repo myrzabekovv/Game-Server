@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="container-inner">
+    <h1>Вход на сервер</h1>
+    
+    <div class="nick">
+      <input class="nickname" type="text">
+    </div>
+    <div class="error">
+      <div class="WrongNickName"></div>
+      <div class="WithoutSpace"></div>
+      <div class="WithSmallWord"></div>
+    </div>
+
+    <fieldset>
+      <div class="radio-wrapper">
+        <input type="radio" name="choose" id="player" class="radio">
+        <label for="player">Игрок</label>
+      </div>
+      <div class="radio-wrapper">
+        <input type="radio" name="choose" id="moder" class="radio">
+        <label for="moder">Модератор</label>
+      </div>
+      <div class="radio-wrapper">
+        <input type="radio" name="choose" id="spectator" class="radio">
+        <label for="spectator">Наблюдатель</label>
+      </div>
+      <div class="HaveToPick"></div>
+    </fieldset>
+    
+    <div class="btn">
+    <button>Вход</button>
+    </div>
+
+    <div class="successfully"></div>
+
+  </div>
+  </div>
+
+
+  <script src="main.js"></script>
+  
+</body>
+</html>
